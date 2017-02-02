@@ -17,11 +17,11 @@ It has these top-level messages:
 */
 package proto3_proto
 
-import proto "github.com/golang/protobuf/proto"
+import proto "github.com/goguardian/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import google_protobuf "github.com/golang/protobuf/ptypes/any"
-import testdata "github.com/golang/protobuf/proto/testdata"
+import google_protobuf "github.com/goguardian/protobuf/ptypes/any"
+import testdata "github.com/goguardian/protobuf/proto/testdata"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

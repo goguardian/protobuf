@@ -16,15 +16,15 @@ It has these top-level messages:
 */
 package conformance
 
-import proto "github.com/golang/protobuf/proto"
+import proto "github.com/goguardian/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import google_protobuf "github.com/golang/protobuf/ptypes/any"
-import google_protobuf1 "github.com/golang/protobuf/ptypes/duration"
+import google_protobuf "github.com/goguardian/protobuf/ptypes/any"
+import google_protobuf1 "github.com/goguardian/protobuf/ptypes/duration"
 import google_protobuf2 "google.golang.org/genproto/protobuf"
-import google_protobuf3 "github.com/golang/protobuf/ptypes/struct"
-import google_protobuf4 "github.com/golang/protobuf/ptypes/timestamp"
-import google_protobuf5 "github.com/golang/protobuf/ptypes/wrappers"
+import google_protobuf3 "github.com/goguardian/protobuf/ptypes/struct"
+import google_protobuf4 "github.com/goguardian/protobuf/ptypes/timestamp"
+import google_protobuf5 "github.com/goguardian/protobuf/ptypes/wrappers"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal
